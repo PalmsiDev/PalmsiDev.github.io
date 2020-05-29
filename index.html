@@ -17,263 +17,258 @@
         
         body {
             font-family: apple;
-            background-color: #e6ffe6;
+            background-color: #00ffff;
+            font-family: Sans-serif;
+            width: 100%;
+        }
+        
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            height: 100px;
+            width: 100px;
+            outline: black;
+            background-size: 100%, 100%;
+            background-image: none;
+        }
+        
+        .carousel-control-next-icon:after {
+            content: '>';
+            font-size: 55px;
+            color: red;
+        }
+        
+        .carousel-control-prev-icon:after {
+            content: '<';
+            font-size: 55px;
+            color: red;
         }
     </style>
 
     <title>Resume</title>
 </head>
 
+
 <body>
 
-    <div class="w-100 bg-success" style="text-align: center; color: white; padding: 5%;">
-        <div class="row d-flex justify-content-center">
-            <h1><b>SIRAPOB SITHI</b></h1>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <h5>Web Developer, Programmer</h5>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <h5>MEWITTY SOLUTION CO.,LTD.</h5>
+    <div class="bg-dark align-self-center" style="text-align: center; color: white;">
+        <div class="row">
+            <div class="col align-self-center">
+                <h1><b>SIRAPOB SITHI</b></h1>
+            </div>
+            <div class="col">
+                <!-- <div class="col-sm-4"></div> -->
+                <div class="row d-flex justify-content-center">
+                    <a href="https://www.linkedin.com/in/sirapob-sithi/"><img src="https://img.icons8.com/color/64/000000/linkedin.png"></a>
+                    <a href="https://www.facebook.com/palmsii"><img src="https://img.icons8.com/color/64/000000/facebook.png"></a>
+                    <a href="https://twitter.com/Palmpob"><img src="https://img.icons8.com/color/64/000000/twitter.png"></a>
+                    <a href="https://www.instagram.com/palmsi_life/"><img src="https://img.icons8.com/color/64/000000/instagram-new.png"></a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container" style="padding: 10%;">
-        <!-- BASIC INFORMATION -->
-        <div class="card border-success mb-3" style="padding: 5%;">
-            <div class="row">
-                <div class="col-sm">
-                    <h3 class="d-flex justify-content-center">BASIC INFORMATION</h3>
-                    <hr>
-                    <div class="row d-flex">
-                        <div class="col-sm-6 d-flex justify-content-end"><label><b>Nickname:</b></label></div>
-                        <div class="col-sm-6"><label>Palm</label></div>
-                    </div>
-                    <div class="row d-flex">
-                        <div class="col-sm-6 d-flex justify-content-end"><label><b>Age:</b></label></div>
-                        <div class="col-sm-6"><label>23</label></div>
-                    </div>
-                    <div class="row d-flex">
-                        <div class="col-sm-6 d-flex justify-content-end"><label><b>Phone:</b></label></div>
-                        <div class="col-sm-6"><label>+66615499424</label></div>
-                    </div>
-                    <div class="row d-flex">
-                        <div class="col-sm-6 d-flex justify-content-end"><label><b>E-mail:</b></label></div>
-                        <div class="col-sm-6"><label>sirapob.sithi@gmail.com</label></div>
-                    </div>
-                    <div class="row d-flex">
-                        <div class="col-sm-6 d-flex justify-content-end"><label><b>Address:</b></label></div>
-                        <div class="col-sm-6"><label>Bangkok, Thailand</label></div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <img src="profile.jpg" alt="Smiley face" height="100%" width="100%">
-                </div>
-            </div>
-        </div>
-        <!-- WORK EXPERIENCE -->
-        <div class="card border-success mb-3" style="margin-top:5%;">
-            <div class="card-header bg-success">
-                <h3><label style="color: white;">WORK EXPERIENCE</label></h3>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm">
-                        <label><b>i-App Creation Co., Ltd.</b></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm" id="work">
-                        <label>2 December 2019 - Current ({{ work_months }} month)</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Position: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>iOS Developer</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Description: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>-</label>
-                    </div>
-                </div>
-                <!-- ========================================== -->
-                <hr>
-                <div class="row">
-                    <div class="col-sm">
-                        <label><b>MEWITTY SOLUTION CO.,LTD.</b></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm" id="work">
-                        <label>15 June 2019 - 29 November 2019 (6 month)</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Position: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>Web Developer</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Description: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>Develop website by Laravel Framework for use in Property Management.</label>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-sm">
-                        <label><b>CS Loxinfo</b></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm">
-                        <label>June 2018 - November 2018 (6 month)</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Position: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>Programmer (Cooperative Education)</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Description: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>Develop website and application for use within the company.</label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- SKILL -->
-        <div class="card border-success mb-3" style="margin-top:5%;">
-            <div class="card-header bg-success">
-                <h3><label style="color: white;">SKILLS</label></h3>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Programing Language: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>Swift, Objc, PHP, JavaScript, Python, C++</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Frontend: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>HTML, CSS, Vue.js, Bootstrap</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Backend: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>Laravel Framework, Ionic Framework</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Database: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>MySQL, PostgreSQL, MongoDB, DynamoDB</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <label><b>Development Tools: </b></label>
-                    </div>
-                    <div class="col-sm-9">
-                        <label>Xcode, Sublime Text, Microsoft Visual Studio, Commandline Terminal, MySQL Workbench, Postman, Android Studio</label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- EDUCATION -->
-        <div class="card border-success mb-3" style="margin-top: 5%;margin-bottom: 5%;">
-            <div class="card-header bg-success">
-                <h3><label style="color: white;">EDUCATION</label></h3>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm">
-                        <label><b>Bachelor of Science in Computer Science</b></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm">
-                        <label>Chiang Mai University, Thailand</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm">
-                        <label>2015-2019</label>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-sm">
-                        <label><b>High School</b></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm">
-                        <label>Taweethapisek, Thailand</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm">
-                        <label>2009-2015</label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="padding: 10%;">
-            <!-- <div class="col-sm-4"></div> -->
-            <div class="col-sm d-flex justify-content-center">
-                <a href="https://www.linkedin.com/in/sirapob-sithi/"><img src="https://img.icons8.com/color/64/000000/linkedin.png"></a>
-            </div>
-            <div class="col-sm d-flex justify-content-center">
-                <a href="https://www.facebook.com/palmsii"><img src="https://img.icons8.com/color/64/000000/facebook.png"></a>
-            </div>
-            <div class="col-sm d-flex justify-content-center">
-                <a href="https://twitter.com/Palmpob"><img src="https://img.icons8.com/color/64/000000/twitter.png"></a>
-            </div>
-            <div class="col-sm d-flex justify-content-center">
-                <a href="https://www.instagram.com/palmsi_life/"><img src="https://img.icons8.com/color/64/000000/instagram-new.png"></a>
-            </div>
-            <!-- <div class="col-sm-4"></div> -->
 
+    <div class="container" style="text-align: center; color: white;">
+        <!-- EXPERIENCE -->
+        <div class="row align-self-center">
+            <div class="col-8">
+                <img style="width: 100%;" src="asset/pastel.png">
+            </div>
+            <div class="col-4 text-dark align-self-center">
+                <h1>Pastel Keyboard</h1>
+                <h2>1 Top Paid iPhone App in Thailand</h2>
+                <hr>
+                <h4>Maintenance and make new feature for application</h4>
+                <h5>[ 2020 - Current ]</h5>
+            </div>
+        </div>
+        <div class="row align-self-center">
+            <div class="col-4 text-dark align-self-center">
+                <h1>Note Lock</h1>
+                <hr>
+                <h4>Increase effectiveness of application</h4>
+                <h5>[ Current ]</h5>
+            </div>
+            <div class="col-8">
+                <img style="width: 100%;" src="asset/notelock.png">
+            </div>
+        </div>
+        <div class="row align-self-center">
+            <div class="col-8">
+                <img style="width: 100%;" src="asset/sanwa.jpg">
+            </div>
+            <div class="col-4 text-dark align-self-center">
+                <h1>Manage electric water meter</h1>
+                <hr/>
+                <h4>Write website for corporation village control and management electric meter of sanwa</h4>
+                <h5>[ 2019 ]</h5>
+            </div>
+        </div>
+        <div class="row align-self-center">
+            <div class="col-4 text-dark align-self-center">
+                <h1>AirEnvi</h1>
+                <hr>
+                <h4>Mobile Application for iOS and Android</h4>
+                <h5>[ 2018 - 2019 ]</h5>
+            </div>
+            <div class="col-8">
+                <img style="width: 100%;" src="asset/AirEnvi.png">
+            </div>
         </div>
 
-        <!-- MOMENT -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js">
-        </script>
-        <!-- VUE -->
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </div>
+
+    <div class="pt-3 pb-3" style="text-align: center;">
+        <div id="carouselExampleControls" class="carousel slide text-dark" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h4>Programming Language</h4>
+                            <hr/>
+                            <div class="row">
+                                <div class="col">
+                                    <h3>Object-C</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>Swift</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>Php</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>JavaScript</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>Python</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h4>Frontend</h4>
+                            <hr/>
+                            <div class="row">
+                                <div class="col">
+                                    <h3>HTML</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>CSS</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>Vue.js</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>Bootstrap4</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h4>Backend</h4>
+                            <hr/>
+                            <div class="row">
+                                <div class="col">
+                                    <h3>Laravel Framework</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>Ionic Frameword</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h4>Database</h4>
+                            <hr/>
+                            <div class="row">
+                                <div class="col">
+                                    <h3>MySQL</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>PostgreSQL</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>MongoDB</h3>
+                                </div>
+                                <div class="col">
+                                    <h3>DynamoDB</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="bg-dark align-middle align-self-center" style="color: white;">
+        <div class="row pt-3 pb-3">
+            <div class="col"></div>
+            <div class="col align-self-center">
+                <h3 style="text-align: center; ">About</h3>
+                <hr/>
+                <h5>Name: Sirapob Sithi</h5>
+                <h5>Nick Name: Palm</h5>
+                <h5>Age: 23</h5>
+                <h5>Position: iOS Developer</h5>
+                <h5>Education: Chiang Mai University</h5>
+            </div>
+            <div class="col">
+                <h3 style="text-align: center; ">Experience</h3>
+                <hr/>
+                <h5>i-App Creation Co., Ltd.</h5>
+                <h5>MEWITTY SOLUTION CO.,LTD.</h5>
+                <h5>CS Loxinfo</h5>
+            </div>
+            <div class="col">
+                <h3 style="text-align: center; ">Contact</h3>
+                <hr/>
+                <h5>E-mail: Sirapob.sithi@gmail.com</h5>
+                <h5>Phone: +66 61-5499424</h5>
+                <h5>Address: Bangkok, Thailand</h5>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <!-- MOMENT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js">
+    </script>
+    <!-- VUE -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
@@ -292,5 +287,9 @@
         data: {
             work_months: work_months
         }
+    })
+
+    $('.carousel').carousel({
+        interval: 10000
     })
 </script>
